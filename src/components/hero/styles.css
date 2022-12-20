@@ -1,0 +1,56 @@
+.bg-gradient-inr {
+    background-color: black !important;
+    background-image: none !important;
+}
+.bg-gradient {
+    background-color: black !important;
+    background-image: none !important;
+}
+
+.tag-img-slider {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.social-icon{
+    font-size: 20px;
+    color: #999999;
+}
+
+.main-hero-dark .hero-main-inr .hero-mainn .container-fluid .hero-inr .row-custom .col-content-otr .col-content-inr .boxes-main .auction-main .timer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.bg-gradient-inr:before {
+    content: "";
+    position: absolute;
+    width: 0px !important;
+    height: 0px !important;
+    background-color: black !important;
+    border-radius: 100%;
+    top: -150px;
+    opacity: 0 !important;
+    left: -150px;
+    opacity: 50%;
+    filter: blur(50px);
+}
+
+.bg-gradient-inr:after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 100%;
+    top: -150px;
+    left: -150px;
+    opacity: 50%;
+    filter: blur(50px);
+}
+
+marquee {
+    opacity: 0.9 !important;
+}

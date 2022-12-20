@@ -1,0 +1,44 @@
+.searchbox {
+    position: relative;
+    color: white !important;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+
+.searchbox li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.234);
+    cursor: pointer;
+}
+.searchbox li:hover {
+    background-color: rgba(34, 19, 110, 0.274);
+    cursor: pointer;
+}
+
+
+.searchbox li img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+
+
+.tem1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tem {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.searchbox-backdrop {
+}

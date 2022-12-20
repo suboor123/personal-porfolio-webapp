@@ -1,0 +1,40 @@
+#detail-head .hero-inr .icons-div {
+    position: relative;
+    right: 0;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+#detail-head .icons-div-inr {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.paginate-btn:hover {
+    transform:  scale(1.1);
+    transition: all ease-out 0.2s;
+    color:#366CE3;
+    cursor: pointer;
+}
+
+.wid-75 {
+    width: 75%;
+}
+
+@media (max-width: 991px) {
+    .wid-75 {
+        width: 100%;
+        object-fit: cover !important;
+    }
+
+    .paginate-btn {
+        opacity: 0.7;
+    }
+}
+
+.side-session-img {
+    object-fit: contain;
+}

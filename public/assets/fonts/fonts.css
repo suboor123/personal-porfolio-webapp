@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url('DMSans-Regular.eot');
+    src: url('DMSans-Regular-.eot#iefix') format('embedded-opentype'),
+         url('DMSans-Regular.woff2') format('woff2'),
+         url('DMSans-Regular.woff') format('woff'),
+         url('DMSans-Regular.ttf') format('truetype'),
+         url('DMSans-Regular.svg#DMSans-Regular') format('svg'),
+         url('DMSans-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url('DMSans-Bold.eot');
+    src: url('DMSans-Bold-.eot#iefix') format('embedded-opentype'),
+         url('DMSans-Bold.woff2') format('woff2'),
+         url('DMSans-Bold.woff') format('woff'),
+         url('DMSans-Bold.ttf') format('truetype'),
+         url('DMSans-Bold.svg#DMSans-Bold') format('svg'),
+         url('DMSans-Bold.otf') format('otf');
+  }
+  
+  

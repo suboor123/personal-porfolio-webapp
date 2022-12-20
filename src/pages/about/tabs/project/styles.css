@@ -1,0 +1,11 @@
+.img-tree {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.p-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}

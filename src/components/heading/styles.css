@@ -1,0 +1,19 @@
+.heading {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #366CE3, #D0FC00);
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 991px) {
+    .heading {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(to right, #366CE3, #D0FC00);
+        position: relative;
+        z-index: 2;
+        font-size: 35px !important;
+    }
+    
+}

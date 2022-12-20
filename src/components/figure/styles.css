@@ -1,0 +1,4 @@
+#filter-fig .tab-otr .tab-inr .tabs {
+    display: flex;
+    flex-wrap: wrap !important;
+}
